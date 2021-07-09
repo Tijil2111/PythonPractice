@@ -33,3 +33,5 @@ elif operation ==5:
     print("The square of 1st no is", num1*num1)
     print("The suare of 2nd no is", num2*num2)
 
+elif operation ==6:
+    print("The square root of 1st no is", num1*0.5)
