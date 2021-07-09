@@ -10,4 +10,26 @@ print("Press 1 for addition ")
 print("Press 2 for subtraction ")
 print("Press 3 for multiplication ")
 print("Press 4 for division ")
-operator = int(input(print("Tell your preference: ")))
+print("Press 5 for square")
+print("Press 6 for square root")
+print("Press 7 for cube")
+print("Press 8 for cube root")
+operation = int(input(print("Tell your preference:")))
+
+
+if operation == 1:
+   print ("The sum is ", num1+num2)
+
+elif operation == 2:
+    print("The difference is", num1-num2)
+
+elif operation ==3:
+    print("The product is", num1*num2)
+
+elif operation ==4:
+    print("The division is", num1/num2)
+
+elif operation ==5:
+    print("The square of 1st no is", num1*num1)
+    print("The suare of 2nd no is", num2*num2)
+
