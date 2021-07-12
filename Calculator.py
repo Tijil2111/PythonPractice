@@ -35,3 +35,12 @@ elif operation ==5:
 
 elif operation ==6:
     print("The square root of 1st no is", num1*0.5)
+    print("The square root of 2nd no  is", num2*0.5)
+
+elif operation ==7:
+    print("The cube of 1st no is", num1*num1*num1)
+    print("The cube of 2nd no  is", num2*num2*num1)
+
+elif operation ==8:
+    print("The cube root of 1st no is", num1 ** (1./3.))
+    print("The cube root of 2nd no  is",num2 ** (1./3.))
