@@ -1,12 +1,10 @@
-#Lets try to make a simple calculator where we edit the values in the code itself 
+price = int( input("Please tell the Price of the product: "))
+units = int(input("Please tell us the Units sold: "))
+totalamount = price*units
+discount = totalamount*10/100 
 
-num1 = 4
-num2 = 95
-#num3 if you want 
+print("We will now calculate the total amount, Discount and Net Amount Payable")
 
-print (num1*num2) # add the variable name in the bracket for which you wanna perform the mathematical operation
-                 # + for add 
-                   # - for sub
-                   # * for multiplication
-                   # / for divide 
-                   # % for remainder 
+print("Total amount payable is", totalamount)
+print("TOtal discount is",discount )
+print("Net Amount Payable is", totalamount-discount)
