@@ -42,5 +42,5 @@ elif operation ==7:
     print("The cube of 2nd no  is", num2*num2*num1)
 
 elif operation ==8:
-    print("The cube root of 1st no is", num1 ** (1./3.))
-    print("The cube root of 2nd no  is",num2 ** (1./3.))
+    print("The cube root of 1st no is", num1 ** (1/3))
+    print("The cube root of 2nd no  is",num2 ** (1/3))
