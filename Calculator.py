@@ -1,6 +1,10 @@
 # Making new calculator using the new functions taught by Sunita Maam in school 
 
 
+
+name = input("Hello, Please Enter your name: ")
+print("Hello", name,"Welcome to the Mathematical calculator made by Tijil: ")
+
 print("This is a Calculating machine which does every possible mathematical calculations")
 num1 = float(input("Please Tell Your 1st Number: "))
 num2 = float(input("Please Tell Your 2nd Number: "))
