@@ -3,9 +3,12 @@
 
 
 name = input("Hello, Please Enter your name: ")
-print("Hello", name,"Welcome to the Mathematical calculator made by Tijil: ")
+print("Hello", name,"Welcome to the Mathematical calculator made by Tijil")
+
 
 print("This is a Calculating machine which does every possible mathematical calculations")
+
+print("This machine can add, subtract, multiply, divide, square, suare root, cube and cube roots")
 num1 = float(input("Please Tell Your 1st Number: "))
 num2 = float(input("Please Tell Your 2nd Number: "))
 
@@ -18,7 +21,7 @@ print("Press 5 for square")
 print("Press 6 for square root")
 print("Press 7 for cube")
 print("Press 8 for cube root")
-operation = int(input(print("Tell your preference:")))
+operation = int(input("Tell your preference:"))
 
 
 if operation == 1:
@@ -48,3 +51,7 @@ elif operation ==7:
 elif operation ==8:
     print("The cube root of 1st no is", num1 ** (1/3))
     print("The cube root of 2nd no  is",num2 ** (1/3))
+
+else :
+    print("Invalid Input")
+
