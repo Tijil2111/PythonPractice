@@ -1,5 +1,6 @@
 price = int(input("Please enter the price: "))
 unit = int(input("Please enter the units: "))
+nap = total-discount+gst
 
 total = price*unit
 
@@ -23,5 +24,4 @@ else:
 
 print("GST IS", gst)
 print("Discount is", discount)
-nap = total-discount+gst
 print("The Net Amount is", total-discount+gst)
