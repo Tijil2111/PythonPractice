@@ -1,7 +1,6 @@
 # PythonPractice
 Python Practice Repo 
-Also includes the tutorial for my youtube channel 
-
+It includes Practice Question done in School CS Class. 
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
